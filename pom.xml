@@ -6,13 +6,13 @@
     <artifactId>web-thymeleaf</artifactId>
     <packaging>jar</packaging>
     <name>Spring Boot Web Thymeleaf Example</name>
-    <description>Spring Boot Web Thymeleaf Example</description>
+    <description>Spring Boot Web Thymeleaf Example 1</description>
     <version>1.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.2.RELEASE</version>
+        <version>1.4.2.RELEASE</version>
     </parent>
 
     <properties>
