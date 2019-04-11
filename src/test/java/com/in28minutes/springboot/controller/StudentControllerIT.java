@@ -20,11 +20,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.codec.Base64;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.in28minutes.springboot.StudentApplication;
+import com.in28minutes.springboot.StudentBootMainApplication;
 import com.in28minutes.springboot.model.Course;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = StudentApplication.class,
+@SpringBootTest(classes = StudentBootMainApplication.class,
 		webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class StudentControllerIT {
 
